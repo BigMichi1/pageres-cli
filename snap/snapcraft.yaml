@@ -22,6 +22,7 @@ parts:
     stage-packages:
       - ca-certificates
       - fonts-liberation
+      - libatomic1
       - libnspr4
       - libnss3
       - xdg-utils
