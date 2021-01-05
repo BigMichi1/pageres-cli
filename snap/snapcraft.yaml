@@ -33,6 +33,6 @@ plugs:
 
 apps:
   pageres:
-    extensions: [gnome-3-34]
+    extensions: [gnome-3-28]
     command: bin/pageres
     plugs: [home, network, browser-support]
