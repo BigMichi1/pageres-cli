@@ -10,8 +10,8 @@ description: |
   Usage:
     $ pageres <url> <resolution>
 
-grade: devel
-confinement: devmode
+grade: stable
+confinement: strict
 
 parts:
   pageres:
