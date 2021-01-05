@@ -26,11 +26,6 @@ parts:
       - libnss3
       - xdg-utils
 
-plugs:
-  browser-sandbox:
-    interface: browser-support
-    allow-sandbox: true
-
 apps:
   pageres:
     extensions: [gnome-3-28]
