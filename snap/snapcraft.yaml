@@ -26,6 +26,9 @@ parts:
       - libnspr4
       - libnss3
       - xdg-utils
+    override-prime: |
+      snapcraftctl prime
+      find node_modules/puppeteer/ -name 'nacl_*' -exec rm {} \;
 
 apps:
   pageres:
