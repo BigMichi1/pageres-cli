@@ -17,7 +17,7 @@ parts:
   pageres:
     plugin: nodejs
     source: .
-    nodejs-version: 14.15.3
+    nodejs-version: 14.15.4
     nodejs-package-manager: npm
     stage-packages:
       - ca-certificates
