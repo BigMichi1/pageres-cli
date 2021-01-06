@@ -68,7 +68,8 @@ const cli = meow(`
 
 async function generate(args, options) {
 	const pageres = new Pageres({
-		incrementalName: !options.overwrite
+		incrementalName: !options.overwrite,
+		launchOptions: {args: ['--no-sandbox', '--disable-setuid-sandbox']}
 	}).dest(process.cwd());
 
 	for (const argument of args) {
