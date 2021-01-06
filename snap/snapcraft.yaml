@@ -40,4 +40,4 @@ apps:
   pageres:
     extensions: [gnome-3-28]
     command: bin/pageres
-    plugs: [home, network, browser-support, process-control]
+    plugs: [home, network, browser-support]
